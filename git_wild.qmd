@@ -16,6 +16,13 @@ execute:
 ### ggplot2 package) and create a plot of price vs. carat (or some other
 ### variables of your choice)
 
+library(tidyverse)
+
+df <- diamonds
+
+ggplot(diamonds,aes(x=carat,y=price,fill=color)) +
+  geom_point(alpha=0.7) +
+  theme_minimal()
 
 ```
 
