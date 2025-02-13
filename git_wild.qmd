@@ -26,6 +26,7 @@ ggplot(diamonds,aes(x=carat,y=price,fill=color)) +
 
 ```
 
+
 ```{r partner 2}
 ### In this code chunk, start with the diamonds dataset (built in to
 ### ggplot2 package) and create a subset based on filtering, e.g., 
